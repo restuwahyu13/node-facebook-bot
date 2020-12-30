@@ -34,10 +34,10 @@ const scraperRunner = async () => {
 		 */
 		await page.waitForSelector('input[name="email"]')
 		await page.focus('input[name="email"]')
-		await page.type('input[name="email"]', 'vpnjantit12@gmail.com', { delay: 25 })
+		await page.type('input[name="email"]', 'myaccount@gmail.com', { delay: 25 })
 		await page.waitForSelector('input[name="pass"]')
 		await page.focus('input[name="pass"]')
-		await page.type('input[name="pass"]', 'bukopin12', { delay: 25 })
+		await page.type('input[name="pass"]', 'myaccount12', { delay: 25 })
 		await page.waitForSelector('button[name="login"]')
 		await page.click('button[name="login"]', { delay: 50 })
 

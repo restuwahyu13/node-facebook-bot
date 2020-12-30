@@ -33,10 +33,10 @@ const scraperRunner = async () => {
 
 		await page.waitForSelector('input[name="email"]')
 		await page.focus('input[name="email"]')
-		await page.type('input[name="email"]', 'vpnjantit12@gmail.com', { delay: 50 })
+		await page.type('input[name="email"]', 'myaccount@gmail.com', { delay: 50 })
 		await page.waitForSelector('input[name="pass"]')
 		await page.focus('input[name="pass"]')
-		await page.type('input[name="pass"]', 'bukopin12', { delay: 50 })
+		await page.type('input[name="pass"]', 'myaccount12', { delay: 50 })
 
 		/**
 		 * @description BOX INPUT STATUS METHOD
