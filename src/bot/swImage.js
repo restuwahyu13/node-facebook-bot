@@ -79,7 +79,7 @@ const scraperRunner = async () => {
 		 * @description SCRENSHOOY STATUS METHOD
 		 */
 
-		await screenshot(page, '../../screenshoot/')
+		await screenshot(page, '../../screenshoot')
 
 		/**
 		 * @description CLOSE BROWSER METHOD
