@@ -1,0 +1,36 @@
+{
+	"name": "bot-facebook-status",
+	"version": "1.0.0",
+	"description": "simple bot create status for facebook",
+	"main": "index.js",
+	"scripts": {
+		"bot-status": "node sText.js",
+		"bot-status-imag": "node stwImage.js",
+		"bot-story-img": "node swImage.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "restuwahyu13"
+	},
+	"keywords": [
+		"facebook bot",
+		"puppeter",
+		"nodejs puppeter"
+	],
+	"author": "restuwahyu13",
+	"license": "MIT",
+	"dependencies": {
+		"babel-eslint": "^10.1.0",
+		"eslint": "^7.16.0",
+		"eslint-plugin-node": "^11.1.0",
+		"husky": "^4.3.6",
+		"pending-xhr-puppeteer": "^2.3.3",
+		"prettier": "^2.2.1",
+		"puppeteer": "^5.5.0",
+		"puppeteer-extra": "^3.1.15",
+		"puppeteer-extra-plugin-adblocker": "^2.11.9",
+		"puppeteer-extra-plugin-anonymize-ua": "^2.2.14",
+		"puppeteer-extra-plugin-flash": "^2.2.8",
+		"puppeteer-extra-plugin-stealth": "^2.6.5"
+	}
+}
